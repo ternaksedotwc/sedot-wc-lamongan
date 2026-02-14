@@ -23,6 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
+  site: 'https://sedot-wc-lamongan.pages.dev',
 
   integrations: [
     tailwind({
